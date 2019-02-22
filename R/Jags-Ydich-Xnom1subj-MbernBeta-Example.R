@@ -13,7 +13,7 @@ source("R/Jags-Ydich-Xnom1subj-MbernBeta.R")
 # Optional: Specify filename root and graphical format for saving output.
 # Otherwise specify as NULL or leave saveName and saveType arguments 
 # out of function calls.
-fileNameRoot = "R/Jags-Ydich-Xnom1subj-MbernBeta-" 
+fileNameRoot = "results/Jags-Ydich-Xnom1subj-MbernBeta-" 
 graphFileType = "eps" 
 #------------------------------------------------------------------------------- 
 # Generate the MCMC chain:

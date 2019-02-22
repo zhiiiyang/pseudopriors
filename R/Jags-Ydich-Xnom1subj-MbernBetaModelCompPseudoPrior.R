@@ -6,7 +6,7 @@ graphics.off()
 rm(list=ls(all=TRUE))
 source("R/DBDA2E-utilities.R")
 require(rjags)
-fileNameRoot="R/Jags-Ydich-Xnom1subj-MbernBetaModelCompPseudoPrior-PSEUDO-" 
+fileNameRoot="results/Jags-Ydich-Xnom1subj-MbernBetaModelCompPseudoPrior-PSEUDO-" 
 
 #------------------------------------------------------------------------------
 # THE DATA.
