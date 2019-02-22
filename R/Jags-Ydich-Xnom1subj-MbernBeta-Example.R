@@ -8,7 +8,7 @@ rm(list=ls())  # Careful! This clears all of R's memory!
 myData = read.csv("data/z15N50.csv")
 #------------------------------------------------------------------------------- 
 # Load the functions genMCMC, smryMCMC, and plotMCMC:
-source("/R/Jags-Ydich-Xnom1subj-MbernBeta.R")
+source("R/Jags-Ydich-Xnom1subj-MbernBeta.R")
 #------------------------------------------------------------------------------- 
 # Optional: Specify filename root and graphical format for saving output.
 # Otherwise specify as NULL or leave saveName and saveType arguments 
